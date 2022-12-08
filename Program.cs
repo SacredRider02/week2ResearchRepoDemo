@@ -15,6 +15,14 @@ namespace HelloWorld
             for (int i = 1; i <= 10; i++){//for loop, initiate with a new integer, put limitation, put incrementattion decramentation method
                 Console.WriteLine(i);
             }
+            
+            string a = "Hello World";//creates string
+            string b = "!";
+
+            a += b;//add string
+            Console.WriteLine(a.IndexOf("o"));//gives us index value of the inserted argument, "o" in this case
+            Console.WriteLine(a.ToUpper());//Makes all letters upper case
+            Console.WriteLine(a.Substring(3, 4));//gives substring starting from index of first value for second value of letters
         }
     }
 }
